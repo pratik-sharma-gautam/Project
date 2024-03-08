@@ -1,5 +1,6 @@
+'use client'
 import React from 'react'
-
+import Link from 'next/link'
 function Navbar() {
   return (
     <>
@@ -12,13 +13,13 @@ function Navbar() {
       </svg>
     </a>
     <nav className="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
-      <a className="mr-5 hover:text-blue-700 hover:cursor-pointer">Home</a>
-      <a className="mr-5 hover:text-blue-700 hover:cursor-pointer">About</a>
-      <a className="mr-5 hover:text-blue-700 hover:cursor-pointer">Contact</a>
-      <a className="mr-5 hover:text-blue-700 hover:cursor-pointer">Deep Dive</a>
+      <Link href={'/Home'} className="mr-5 hover:text-blue-700 hover:cursor-pointer">Home</Link>
+      <Link href="/About" className="mr-5 hover:text-blue-700 hover:cursor-pointer">About</Link>
+      <Link href={'/Contact'} className="mr-5 hover:text-blue-700 hover:cursor-pointer">Contact</Link>
     </nav>
     <div>
-    <button className='bg-white rounded-xl px-8 max-w-18 min-w-4 py-1.5 box-border text-gray-900 hover:text-gray-900 inline-block'>Login</button>
+  <Link href={"/Login"}>
+  <button className='bg-white rounded-xl px-8 max-w-18 min-w-4 py-1.5 box-border text-gray-900 hover:text-gray-900 inline-block'>Login</button></Link>
 
 
 
