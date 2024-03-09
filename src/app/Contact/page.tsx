@@ -4,7 +4,11 @@ import React from 'react'
 function page() {
   return (
     <>
-    <Navbar/>Contact
+    <Navbar/>
+    
+    <center>
+    <h1 className="text-3xl font-bold">Contact Me</h1>
+   </center>
     </>
   )
 }

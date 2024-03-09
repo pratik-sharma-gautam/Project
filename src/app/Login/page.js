@@ -4,7 +4,9 @@ function Login() {
   return (
     <>
     <Navbar/>
-    Login Here
+   <center>
+    <h1 className="text-3xl font-bold"> Login Here</h1>
+   </center>
     </>
   )
 }

@@ -8,7 +8,7 @@ function Home() {
   return (
    <>
    <Navbar/>
-   <HomeCard title="Sleep" href="/" />
+   <HomeCard title="Sleep" href="mypages/sleep" />
    </>
   )
 }

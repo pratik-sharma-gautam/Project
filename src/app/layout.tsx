@@ -15,7 +15,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="dark bg-gray-500">
+    <html lang="en" className="dark bg-gray-400">
      {/* <div className=" text-white"> */}
      {/* <Navbar/> */}
      {/* </div> */}
