@@ -31,3 +31,19 @@ body {
     text-wrap: balance;
   }
 }
+
+*::selection{
+  background: yellow;
+  color: black;
+}
+h1::selection,h2::selection,h3::selection,h4::selection,h5::selection,h6::selection{
+  background: green;
+  color: white;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+*{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
