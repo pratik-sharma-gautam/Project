@@ -1,6 +1,7 @@
 'use client'
 import React from 'react'
 import Link from 'next/link'
+import './Navbar.css'
 function Navbar() {
   return (
     <>
@@ -23,7 +24,7 @@ function Navbar() {
 
             </a>
             <nav className="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
-              <Link href={'/'} className="mr-5 hover:text-blue-700 hover:cursor-pointer">Home</Link>
+            <Link href={'/'} className="mr-5 hover:text-blue-700 hover:cursor-pointer  ">Home</Link>
               <Link href="/About" className="mr-5 hover:text-blue-700 hover:cursor-pointer">About</Link>
               <Link href={'/Contact'} className="mr-5 hover:text-blue-700 hover:cursor-pointer">Contact</Link>
             </nav>
